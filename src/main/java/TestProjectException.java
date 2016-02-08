@@ -4,4 +4,8 @@ public class TestProjectException extends Exception {
         super(e);
     }
 
+    public TestProjectException(String m) {
+        super(m);
+    }
+
 }
