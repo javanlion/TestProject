@@ -11,6 +11,7 @@ public class TSIChecker {
     public static void main(String[] args) throws TestProjectException {
         System.out.println(checkTSI("SQL_TSI_SECOND"));
         System.out.println(checkTSI("SQL_TSI_HOUR"));
+        System.out.println(checkTSI("SQL_TSI_QUARTER"));
     }
 
 }
