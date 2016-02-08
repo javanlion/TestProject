@@ -1,6 +1,10 @@
 public enum TSI {
 
+    SQL_TSI_FRAC_SECOND,
     SQL_TSI_SECOND,
-    SQL_TSI_MINUTE
-
+    SQL_TSI_MINUTE,
+    SQL_HOUR,
+    SQL_MONTH,
+    SQL_QUARTER,
+    SQL_YEAR
 }
